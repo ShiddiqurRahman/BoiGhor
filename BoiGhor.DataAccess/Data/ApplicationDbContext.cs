@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BoiGhor.Data
+namespace BoiGhor.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoiGhor", "BoiGhor\BoiGhor.csproj", "{E91B2DD6-B240-4407-88D3-EF8117DA2B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoiGhor", "BoiGhor\BoiGhor.csproj", "{E91B2DD6-B240-4407-88D3-EF8117DA2B4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoiGhor.DataAccess", "BoiGhor.DataAccess\BoiGhor.DataAccess.csproj", "{46A3F6DB-97E3-4BD4-A96F-F736259DE5C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoiGhor.Models", "BoiGhor.Models\BoiGhor.Models.csproj", "{0F39984B-C211-4CC7-986F-20BD788BF82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoiGhor.Utility", "BoiGhor.Utility\BoiGhor.Utility.csproj", "{348CEB46-33F8-4BB0-948F-C87113821C2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E91B2DD6-B240-4407-88D3-EF8117DA2B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91B2DD6-B240-4407-88D3-EF8117DA2B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91B2DD6-B240-4407-88D3-EF8117DA2B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A3F6DB-97E3-4BD4-A96F-F736259DE5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A3F6DB-97E3-4BD4-A96F-F736259DE5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A3F6DB-97E3-4BD4-A96F-F736259DE5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A3F6DB-97E3-4BD4-A96F-F736259DE5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F39984B-C211-4CC7-986F-20BD788BF82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F39984B-C211-4CC7-986F-20BD788BF82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F39984B-C211-4CC7-986F-20BD788BF82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F39984B-C211-4CC7-986F-20BD788BF82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348CEB46-33F8-4BB0-948F-C87113821C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348CEB46-33F8-4BB0-948F-C87113821C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348CEB46-33F8-4BB0-948F-C87113821C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348CEB46-33F8-4BB0-948F-C87113821C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

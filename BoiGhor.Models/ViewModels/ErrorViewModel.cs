@@ -1,6 +1,6 @@
 using System;
 
-namespace BoiGhor.Models
+namespace BoiGhor.Models.ViewModels
 {
     public class ErrorViewModel
     {

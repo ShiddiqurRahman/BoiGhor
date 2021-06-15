@@ -1,4 +1,4 @@
-﻿using BoiGhor.Models;
+﻿using BoiGhor.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,8 +7,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BoiGhor.Controllers
-{
+namespace BoiGhor.Areas.Customer.Controllers
+{   
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
