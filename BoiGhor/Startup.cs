@@ -1,4 +1,6 @@
 using BoiGhor.DataAccess.Data;
+using BoiGhor.DataAccess.Repository;
+using BoiGhor.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +34,7 @@ namespace BoiGhor
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
