@@ -198,3 +198,22 @@ body {
     width: 210px !important;
     margin: 0 auto;
 }
+
+#data_wrapper.dataTables_wrapper {
+    height: 700px !important;
+    background-color: #F1F1F1 !important;
+   
+}
+/*#tblData_wrapper {
+    width: 583px;
+}*/
+
+#tblData {
+    padding-top: 7px;
+}
+
+#data_wrapper .fg-toolbar.ui-toolbar.ui-widget-header.ui-helper-clearfix.ui-corner-bl.ui-corner-br {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+}

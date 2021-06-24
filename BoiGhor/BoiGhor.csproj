@@ -24,9 +24,4 @@
     <ProjectReference Include="..\BoiGhor.Utility\BoiGhor.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
