@@ -96,6 +96,7 @@ namespace BoiGhor.Areas.Admin.Controllers
             parameter.Add("@Id", id);
             parameter.Add("@Name", "");
             parameter.Add("@action", "g");
+
          
             var objFromDb = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType, parameter);
             if (objFromDb == null)
